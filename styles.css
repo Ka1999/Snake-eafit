@@ -1,6 +1,5 @@
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,6 @@ body{
 
 #tablero-juego{
     background-color:black ;
-    /*width: 100vmin;*/
     width: 700px;
     height: 650px;
     display: grid;
@@ -20,10 +18,9 @@ body{
 
 .snake{
     background-color: plum;
-    border: .25vmin solid rgb(255, 255, 255);
+    border: .25px solid rgb(255, 255, 255);
 }
 
 .comida{
     background-image: url(/recursos/hamburguesa-con-queso.png);
-    border: .25vmin solid white;
 }

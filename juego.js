@@ -14,8 +14,6 @@ function main(tiempoActual){
         return
     }
 
-
-
     window.requestAnimationFrame(main)
     
     const segundosDesdeUltimoRenderizado = (tiempoActual - ultimoTiempoRenderizado)/1000;
@@ -23,8 +21,6 @@ function main(tiempoActual){
     if(segundosDesdeUltimoRenderizado < 1/VELOCIDAD_SNAKE){
         return;
     }
-    
-    
 
     ultimoTiempoRenderizado = tiempoActual;
     actualizar();
