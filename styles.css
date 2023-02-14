@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(/recursos/bosque.png);
+}
+
+#tablero-juego{
+    background-color:black ;
+    /*width: 100vmin;*/
+    width: 700px;
+    height: 650px;
+    display: grid;
+    grid-template-rows: repeat(21,1fr);
+    grid-template-columns: repeat(21,1fr);
+}
+
+.snake{
+    background-color: plum;
+    border: .25vmin solid rgb(255, 255, 255);
+}
+
+.comida{
+    background-image: url(/recursos/hamburguesa-con-queso.png);
+    border: .25vmin solid white;
+}
